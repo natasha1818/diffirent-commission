@@ -23,7 +23,7 @@ fun calculationAmount(amount: Double, amountOfTransfer: Double) {
         )
     }
 }
-fun calculationAmountMirAndVisa(amount: Double,amountOfTransfer: Double){
+fun calculationAmountMirAndVisa(amount: Double){
     if (amount < 35.00){
         println("Ваша сумма меньше минимальной суммы перевода 35 рублей.")
     }else{
