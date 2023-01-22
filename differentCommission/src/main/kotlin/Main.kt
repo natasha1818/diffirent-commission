@@ -24,8 +24,8 @@ fun calculationAmount(amount: Double, amountOfTransfer: Double) {
     }
 }
 fun calculationAmountMirAndVisa(amount: Double,amountOfTransfer: Double){
-    if (amount < 35){
-        println("Ваша сумма меьнше минимальной суммы перевода 35 рублей.")
+    if (amount < 35.00){
+        println("Ваша сумма меньше минимальной суммы перевода 35 рублей.")
     }else{
         val commission = amount*0.0075
         val totalAmount = amount + commission
